@@ -6,8 +6,7 @@ public:
         for (int i = digits.size() - 1; i >= 0; --i) {
             // Add 1 to the current digit
             ++digits[i];
-          
-            // Handle carry by taking modulo 10
+          // Handle carry by taking modulo 10
             // If digit becomes 10, it will be set to 0
             digits[i] %= 10;
           
