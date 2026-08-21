@@ -10,7 +10,7 @@ public:
             // If digit becomes 10, it will be set to 0
             digits[i] %= 10;
           
-            // If the digit is not 0, there's no carry to propagate
+  // If the digit is not 0, there's no carry to propagate
             // We can return the result immediately
             if (digits[i] != 0) {
                 return digits;
