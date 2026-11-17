@@ -7,4 +7,4 @@ and for database we use mysql.
 and we implement this
 by using eclips.
 i uses servlet
-dao and all the thing
+dao and all the thing and for the server
